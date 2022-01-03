@@ -16,7 +16,7 @@ public class Application {
         for(int i=1 ; i< data.length ; i++) {
             
             switch(data[i][3]){
-            
+            //saving changes after first commit
             case "openBrowser":
                 mthd.openBrowser();
                 break;
